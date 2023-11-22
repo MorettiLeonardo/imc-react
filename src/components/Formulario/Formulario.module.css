@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: beige;
+}
+
+h1,
+h2 {
+    font-size: 18px;
+}
+
+form input {
+    padding: 0.75rem;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+button {
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 0.75rem;
+    margin-bottom: 16px;
+    cursor: pointer;
+    background-color: white;
+    width: 192px;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #bbb;
+}
